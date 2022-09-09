@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Flex/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>FLEX</title>
+  </head>
+  <body>
+    <form>
+      <!-- R2H LOGO -->
+      <section class="image">
+        <input type="image" id="img" src="/R2H+logo-01.png" />
+      </section>
+
+      <!-- FIRST NAME -->
+      <section>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" />
+      </section>
+
+      <!-- LAST NAME -->
+      <section>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" />
+      </section>
+
+      <!-- EMAIL -->
+      <section>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+      </section>
+
+      <!-- AGE -->
+      <section>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" />
+      </section>
+
+      <!-- GENDER -->
+      <label for="gender" class="gender-text">Gender</label>
+      <section class="gender">
+        <!-- MALE -->
+        <section>
+          <p>Male</p>
+          <input type="radio" id="gender" name="gender" />
+        </section>
+
+        <!-- FEMALE -->
+        <section>
+          <p>Female</p>
+          <input type="radio" id="gender" name="gender" />
+        </section>
+
+        <!-- NON-BINARY -->
+        <section>
+          <p>Non-Binary</p>
+          <input type="radio" id="gender" name="gender" />
+        </section>
+      </section>
+
+      <!-- PHONE NUM -->
+      <section>
+        <label for="pnum">Phone Number</label>
+        <input
+          type="number"
+          id="pnum"
+          name="pnum"
+          placeholder="(###)-###-####"
+        />
+      </section>
+
+      <!-- SUBMIT BTN -->
+      <section>
+        <button id="subbtn">SUBMIT</button>
+      </section>
+    </form>
+  </body>
+</html>

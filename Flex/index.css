@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(16, 60, 89);
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+.image {
+  width: 23%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  padding: 8px 0;
+}
+input {
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+}
+.gender {
+  display: flex;
+  flex-direction: row;
+}
+.gender section {
+  padding: 0 5px;
+}
+#subbtn {
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+#subbtn:hover {
+  background-color: rgb(33, 194, 199);
+  color: white;
+}
